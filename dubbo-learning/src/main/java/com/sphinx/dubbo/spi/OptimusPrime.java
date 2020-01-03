@@ -8,7 +8,7 @@ package com.sphinx.dubbo.spi;
 public class OptimusPrime implements Robot {
 
     @Override
-    public String sayHello() {
-        return "I am Optimus Prime.";
+    public void sayHello() {
+        System.out.println("I am Optimus Prime.");
     }
 }

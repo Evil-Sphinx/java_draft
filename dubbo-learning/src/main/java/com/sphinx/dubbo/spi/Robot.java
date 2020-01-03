@@ -7,6 +7,6 @@ package com.sphinx.dubbo.spi;
  */
 public interface Robot {
 
-    String sayHello();
+    void sayHello();
 
 }
